@@ -111,6 +111,21 @@
             </objects>
             <point key="canvasLocation" x="139.13043478260872" y="133.92857142857142"/>
         </scene>
+        <!--Register-->
+        <scene sceneID="He4-Mj-SzA">
+            <objects>
+                <viewController title="Register" id="cTo-CM-Nt6" customClass="RegisterViewController" customModule="AuthenSSU" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nst-26-izO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="mIR-UP-OAa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RQW-8u-nex" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="887" y="134"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Logp" width="170.5" height="170.5"/>
