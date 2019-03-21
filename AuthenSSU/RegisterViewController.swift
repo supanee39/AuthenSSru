@@ -56,8 +56,17 @@ class RegisterViewController: UIViewController {
     func myAlert(titleString:String,messageSting:String) -> Void{
         
         print("title = \(titleString),message = \(messageSting)")
+        let alert = UIAlertController(title: titleString, message: messageSting, preferredStyle: UIAlertController.Style.alert)
         
-    }
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: { (action) in
+            alert.dismiss(animated: true, completion: nil)
+        }))
+        
+        present(alert,animated: true,completion: nil)
+        
+        
+        
+    } //myAlert
     
     
     
