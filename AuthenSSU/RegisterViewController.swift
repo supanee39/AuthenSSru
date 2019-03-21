@@ -20,6 +20,9 @@ class RegisterViewController: UIViewController {
 
     
     @IBAction func uploadButton(_ sender: Any) {
+        
+         print("Yon Click Uplad")
+        
     }
     
     
