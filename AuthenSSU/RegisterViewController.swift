@@ -10,9 +10,22 @@ import UIKit
 
 class RegisterViewController: UIViewController {
     
+//    My Outlet
     
-
-    override func viewDidLoad() {
+    
+    @IBOutlet weak var naemetextField: UITextField!
+    
+    
+    @IBOutlet weak var userTextField: UITextField!
+    
+    
+    
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+ 
+    //  End Outlet
+    
+        override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -23,6 +36,10 @@ class RegisterViewController: UIViewController {
         
          print("Yon Click Uplad")
         
+        let name = naemetextField.text!
+        
+        
+   print("name = \(name)")
     }
     
     
