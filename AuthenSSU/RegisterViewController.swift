@@ -37,9 +37,16 @@ class RegisterViewController: UIViewController {
          print("Yon Click Uplad")
         
         let name = naemetextField.text!
+        let user = userTextField.text!
+        let password = passwordTextField.text!
+        
+        print("name =\(name)")
+        print("user =\(user)")
+        print("password =\(password)")
         
         
-   print("name = \(name)")
+        
+        
     }
     
     
